@@ -103,12 +103,7 @@ const getWeatherData = async (city = 'cairo') => {
     } catch (error) {
         console.log(error);
     }
-    //fetch then catch
-    // fetch(`${baseURL}${endPoint}?key=${APIKey}&q=alexandria&days=3`).then((response) => {
-    //     return response.json();
-    // }).then((response) => console.log(response)).catch((error) => {
-    //     console.log(error);
-    // });
+
 }
 
 
